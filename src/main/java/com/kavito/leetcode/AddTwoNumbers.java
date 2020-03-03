@@ -1,4 +1,4 @@
-package com.kavito.LeetCode;
+package com.kavito.leetcode;
 
 class ListNode {
     int val;

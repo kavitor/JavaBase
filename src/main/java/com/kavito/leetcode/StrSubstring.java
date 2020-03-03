@@ -1,4 +1,4 @@
-package com.kavito.LeetCode;
+package com.kavito.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
