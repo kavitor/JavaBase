@@ -1,0 +1,18 @@
+
+bsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(ü¡µ
+csquid:S001122"FDefine and throw a dedicated exception instead of using a generic one.(è´¯§þÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(˜âëª
+Ksquid:S1066("/Merge this if statement with the enclosing one.( ÐÂ«úÿÿÿÿ
+Csquid:S16125",Replace this lambda with a method reference.(Ì‡²ê
+N
+squid:S106""9Replace this use of System.out or System.err by a logger.(ßÆÏ
+esquid:S1192"IDefine a constant instead of duplicating this literal "zhangSan" 3 times.(•—Úùýÿÿÿÿ
+]squid:HiddenFieldCheck)";Rename "address" which hides the field declared at line 25.(¹Ó÷£
+csquid:S00112/"FDefine and throw a dedicated exception instead of using a generic one.( Þƒóøÿÿÿÿ
+Csquid:S16124",Replace this lambda with a method reference.(¹Õ‘Ì
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñ²úü
+csquid:S00112&"FDefine and throw a dedicated exception instead of using a generic one.(‘ë›èøÿÿÿÿ
+Fsquid:S1068"(Remove this unused "city" private field.(“øÌà8ûÌ–‚‘.
+Fsquid:S1068"(Remove this unused "name" private field.(Ë¥¼8ûÌ–‚‘.
+Nsquid:S1068"+Remove this unused "address" private field.(ßÍ˜²ýÿÿÿÿ8ûÌ–‚‘.

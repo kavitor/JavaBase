@@ -2,8 +2,8 @@ package com.kavito.time;
 
 import org.junit.Test;
 
-import java.time.LocalDateTime;
-import java.time.ZoneId;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -56,6 +56,28 @@ public class TimeTest {
         System.out.println(date1.compareTo(date));
         // true
         System.out.println(LocalDateTime.parse("2017-02-03T12:30:30").isBefore(LocalDateTime.parse("2017-03-02T12:20:30")));
+
+    }
+
+    @Test
+    public void test4(){
+        LocalDateTime now = LocalDateTime.now();
+        ZonedDateTime znow = now.atZone(ZoneId.systemDefault());
+        String result = DateTimeFormatter.ISO_OFFSET_DATE_TIME.format(znow);
+        // 2020-03-25T16:33:31.612+08:00
+        System.out.println(result);
+        System.out.println(ZonedDateTime.parse(result).toLocalDateTime());
+        System.out.println(now);
+    }
+
+    @Test
+    public void test5(){
+        LocalDate today = LocalDate.now();
+        LocalDate playerDate = LocalDate.from(DateTimeFormatter.ofPattern("yyyy-MM-dd").parse("1992-06-25"));
+        long age = ChronoUnit.YEARS.between(playerDate,today);
+
+        System.out.println("age  : " + Integer.parseInt(String.valueOf(age)));
+
 
     }
 }

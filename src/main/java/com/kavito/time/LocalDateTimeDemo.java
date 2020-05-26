@@ -85,6 +85,9 @@ public class LocalDateTimeDemo {
         // 2019-12-20T14:18:08.780+08:00[Asia/Shanghai]
         System.out.println(zonedDateTime);
 
+
+
+
         /**
          * 6、使用Period和Duration类  计算时间差
          * Period:用于计算两个日期（年月日）间隔

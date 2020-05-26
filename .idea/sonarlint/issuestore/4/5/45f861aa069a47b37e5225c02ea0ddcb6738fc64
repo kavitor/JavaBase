@@ -1,0 +1,8 @@
+
+bsquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(÷Ô®“
+dsquid:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(å·ž«ýÿÿÿÿ
+O
+squid:S106'"9Replace this use of System.out or System.err by a logger.(žû¥š
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(†Ä¼üÿÿÿÿ
+Esquid:S2140")Use "java.util.Random.nextInt()" instead.(çƒœÄüÿÿÿÿ
+usquid:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÉµ®þÿÿÿÿ

@@ -1,0 +1,19 @@
+
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ø•Å¿ûÿÿÿÿ8úÙÁ¢“.
+V
+squid:S106C"9Replace this use of System.out or System.err by a logger.(‹î£—8úÙÁ¢“.
+Isquid:S1612(",Replace this lambda with a method reference.(§†Ë8ƒ¥‘.
+U
+squid:S1068"9Replace this use of System.out or System.err by a logger.(çÍÃh8úÙÁ¢“.
+isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(ü…ß8ï§¸¥‘.
+isquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(øï8úÙÁ¢“.
+hsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(Å¾Êh8öÛ¾¢“.
+[
+squid:S106>"9Replace this use of System.out or System.err by a logger.(Ü¡Èûÿÿÿÿ8úÙÁ¢“.
+V
+squid:S106;"9Replace this use of System.out or System.err by a logger.(éÕ²Ş8úÙÁ¢“.
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Úú´âıÿÿÿÿ8ğ³¥‘.
+V
+squid:S106A"9Replace this use of System.out or System.err by a logger.(¿ê±¯8úÙÁ¢“.

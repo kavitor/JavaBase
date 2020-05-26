@@ -120,10 +120,12 @@ public class Test {
         System.out.println(list.toString());
     }
 
+
     @org.junit.Test
     public void testi(){
 
         System.out.println((char) (0x4e00 + (int) (Math.random() * (0x9fa5 - 0x4e00 + 1))));
 
     }
+
 }

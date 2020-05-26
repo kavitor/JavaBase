@@ -1,8 +1,8 @@
 
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ýßéóøÿÿÿÿ
-N
-squid:S106!"9Replace this use of System.out or System.err by a logger.(†½ù1
-bsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(£Ã³œ
 jsquid:S1602"SRemove useless curly braces around statement and then remove useless return keyword(€ïò¢
 O
 squid:S1061"9Replace this use of System.out or System.err by a logger.(•Áã
+bsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(£Ã³œ
+N
+squid:S106!"9Replace this use of System.out or System.err by a logger.(†½ù1
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ýßéóøÿÿÿÿ

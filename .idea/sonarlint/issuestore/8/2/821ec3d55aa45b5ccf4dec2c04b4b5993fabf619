@@ -1,0 +1,39 @@
+
+T
+squid:S106&"9Replace this use of System.out or System.err by a logger.(“Ÿ÷Ÿüÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(õº®
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™”Õ“
+fsquid:S00100^"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óı…ƒ
+usquid:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿí——øÿÿÿÿ
+fsquid:S001009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âĞÅâ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿí——øÿÿÿÿ
+hsquid:S1223I"LRename this method to prevent any misunderstanding or make it a constructor.(µÇ«–ÿÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(Úæèÿÿÿÿÿ
+Osquid:S1854$"8Remove this useless assignment to local variable "str2".(Óã÷
+usquid:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿí——øÿÿÿÿ
+asquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(§…¥9
+@squid:S2140")Use "java.util.Random.nextInt()" instead.(õº®
+Psquid:S1854`"9Remove this useless assignment to local variable "listB".(ËÓŸ
+N
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ÌÇºr
+O
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ğËÀ‚
+psquid:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆ´¬î
+T
+squid:S106V"9Replace this use of System.out or System.err by a logger.(¿ıüŒÿÿÿÿÿ
+O
+squid:S106v"9Replace this use of System.out or System.err by a logger.(ªµ²
+Zsquid:S1155C">Use isEmpty() to check whether the collection is empty or not.(Úæèÿÿÿÿÿ
+fsquid:S00100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃŸ×¿
+psquid:S2293K"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆ´¬î
+O
+squid:S106t"9Replace this use of System.out or System.err by a logger.(ªµ²
+@squid:S1481$")Remove this unused "str2" local variable.(Óã÷
+Asquid:S1481`"*Remove this unused "listB" local variable.(ËÓŸ
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(ĞÚãÉ
+ksquid:S00100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ«–ÿÿÿÿÿ
+T
+squid:S106x"9Replace this use of System.out or System.err by a logger.(”äÙóıÿÿÿÿ

@@ -1,0 +1,6 @@
+我们通过策略模式、工厂模式以及Spring的InitializingBean，提升了代码的可读性以及可维护性，彻底消灭了一坨if-else。
+以上代码，其实还是有一些重复代码的，这里面还可以引入模板方法模式进一步精简，这里就不展开了。
+还有就是，UserPayServiceStrategyFactory.register调用的时候，第一个参数需要传一个字符串，
+这里的话其实也可以优化掉。比如使用枚举，或者在每个策略类中自定义一个getUserType方法，各自实现即可。
+
+https://blog.csdn.net/ThinkWon/article/details/102924813结合Spring框架实现初始化
