@@ -1,0 +1,27 @@
+
+Ssquid:S1854]"<Remove this useless assignment to local variable "sumValue".(²³Åþ
+Xsquid:S1854Z"<Remove this useless assignment to local variable "minValue".(äí„ùÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïˆøáûÿÿÿÿ
+Ssquid:S1854V"<Remove this useless assignment to local variable "maxValue".(¤žÔ¸
+Ssquid:S1854O"7Remove this useless assignment to local variable "str".(ÜÛ€ùÿÿÿÿ
+Dsquid:S1481O"(Remove this unused "str" local variable.(ÜÛ€ùÿÿÿÿ
+Dsquid:S1481#"-Remove this unused "collect3" local variable.( ñâè
+Csquid:S1481",Remove this unused "collect" local variable.(Žåú•
+Isquid:S1481 "-Remove this unused "collect2" local variable.(Œ‰Âùûÿÿÿÿ
+O
+squid:S106>"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(­ ‘ˆüÿÿÿÿ
+Dsquid:S1481]"-Remove this unused "sumValue" local variable.(²³Åþ
+Ssquid:S1854#"<Remove this useless assignment to local variable "collect3".( ñâè
+Isquid:S1481"-Remove this unused "collect1" local variable.(¸…›°ÿÿÿÿÿ
+Dsquid:S1481`"(Remove this unused "avg" local variable.(äµ…¶ÿÿÿÿÿ
+Isquid:S1481Z"-Remove this unused "minValue" local variable.(äí„ùÿÿÿÿ
+Rsquid:S1854";Remove this useless assignment to local variable "collect".(Žåú•
+Vsquid:S1854L":Remove this useless assignment to local variable "result".(ô‚éðÿÿÿÿÿ
+Ssquid:S1854`"7Remove this useless assignment to local variable "avg".(äµ…¶ÿÿÿÿÿ
+Gsquid:S1481L"+Remove this unused "result" local variable.(ô‚éðÿÿÿÿÿ
+Xsquid:S1854 "<Remove this useless assignment to local variable "collect2".(Œ‰Âùûÿÿÿÿ
+Xsquid:S1854"<Remove this useless assignment to local variable "collect1".(¸…›°ÿÿÿÿÿ
+Dsquid:S1481V"-Remove this unused "maxValue" local variable.(¤žÔ¸
+Hsquid:S1612h",Replace this lambda with a method reference.(¸°ýåúÿÿÿÿ

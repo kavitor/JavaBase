@@ -3,6 +3,7 @@ package com.kavito.collection;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -35,7 +36,7 @@ public class Test {
         String str1 = listA.stream().distinct().collect(Collectors.joining(";"));
         String str2 = listA.stream().distinct().collect(Collectors.joining(";","[","]"));
 
-        System.out.println(str1);
+        System.out.println(str2);
     }
 
 
@@ -127,5 +128,13 @@ public class Test {
         System.out.println((char) (0x4e00 + (int) (Math.random() * (0x9fa5 - 0x4e00 + 1))));
 
     }
+
+    @org.junit.Test
+    public void test2(){
+        String test = "01";
+        System.out.println(StringUtils.leftPad(null,2,'0'));
+
+    }
+
 
 }

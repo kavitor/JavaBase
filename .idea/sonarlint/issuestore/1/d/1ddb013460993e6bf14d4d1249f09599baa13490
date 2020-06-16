@@ -1,9 +1,9 @@
 
-osquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(àä˜üûÿÿÿÿ8Ï–·íú-
-Nsquid:S2201©"*The return value of "atZone" must be used.(†¨ééøÿÿÿÿ8£Ëµíú-
-Nsquid:S2201™"*The return value of "atZone" must be used.(†¨ééøÿÿÿÿ8£Ëµíú-
-fsquid:S00112½"FDefine and throw a dedicated exception instead of using a generic one.(äžËè8£Ëµíú-
-jsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(Ä…å‡8íÃû“û-
-Xsquid:S1118	":Add a private constructor to hide the implicit public one.(“à®ï8£Ëµíú-
 ¥%squid:RedundantThrowsDeclarationCheck½"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(äžËè8£Ëµíú-
+Xsquid:S1118	":Add a private constructor to hide the implicit public one.(“à®ï8£Ëµíú-
+osquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(àä˜üûÿÿÿÿ8Ï–·íú-
 Nsquid:S2201‰"*The return value of "atZone" must be used.(†¨ééøÿÿÿÿ8£Ëµíú-
+Nsquid:S2201™"*The return value of "atZone" must be used.(†¨ééøÿÿÿÿ8£Ëµíú-
+jsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(Ä…å‡8íÃû“û-
+Nsquid:S2201©"*The return value of "atZone" must be used.(†¨ééøÿÿÿÿ8£Ëµíú-
+fsquid:S00112½"FDefine and throw a dedicated exception instead of using a generic one.(äžËè8£Ëµíú-

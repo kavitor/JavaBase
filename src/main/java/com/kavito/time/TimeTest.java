@@ -2,10 +2,13 @@ package com.kavito.time;
 
 import org.junit.Test;
 
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.Date;
+import java.util.*;
 
 /**
  * @Description:
@@ -77,7 +80,5 @@ public class TimeTest {
         long age = ChronoUnit.YEARS.between(playerDate,today);
 
         System.out.println("age  : " + Integer.parseInt(String.valueOf(age)));
-
-
     }
 }

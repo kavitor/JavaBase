@@ -1,26 +1,26 @@
 
-O
-squid:S106""9Replace this use of System.out or System.err by a logger.(²¨ç÷
+Fsquid:S1481 "*Remove this unused "date2" local variable.(İãÕÔøÿÿÿÿ
 N
 squid:S106)"9Replace this use of System.out or System.err by a logger.(„µÒ,
 T
-squid:S106K"9Replace this use of System.out or System.err by a logger.(›¨ÍŒşÿÿÿÿ
-Usquid:S1854 "9Remove this useless assignment to local variable "date2".(İãÕÔøÿÿÿÿ
-T
 squid:S1064"9Replace this use of System.out or System.err by a logger.(‹Ö§Ùúÿÿÿÿ
-Fsquid:S1481 "*Remove this unused "date2" local variable.(İãÕÔøÿÿÿÿ
+gsquid:S11929"KDefine a constant instead of duplicating this literal "2019-12-20" 3 times.(¸î£µşÿÿÿÿ
+fsquid:S1854/"JRemove this useless assignment to local variable "previousMonthSameDate2".(¢éöÜúÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(‡í®®üÿÿÿÿ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(²¨ç÷
+O
+squid:S106="9Replace this use of System.out or System.err by a logger.(ÀØÊÚ
+Usquid:S1854 "9Remove this useless assignment to local variable "date2".(İãÕÔøÿÿÿÿ
+Wsquid:S1481/";Remove this unused "previousMonthSameDate2" local variable.(¢éöÜúÿÿÿÿ
 O
 squid:S106C"9Replace this use of System.out or System.err by a logger.(ÏëÙ¤
 T
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(ìµ–”ùÿÿÿÿ
-T
-squid:S1061"9Replace this use of System.out or System.err by a logger.(‡í®®üÿÿÿÿ
+squid:S106K"9Replace this use of System.out or System.err by a logger.(›¨ÍŒşÿÿÿÿ
 T
 squid:S106S"9Replace this use of System.out or System.err by a logger.(‚ÕÄúùÿÿÿÿ
 T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ìµ–”ùÿÿÿÿ
+T
 squid:S106"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ
-O
-squid:S106="9Replace this use of System.out or System.err by a logger.(ÀØÊÚ
-gsquid:S11929"KDefine a constant instead of duplicating this literal "2019-12-20" 3 times.(¸î£µşÿÿÿÿ
-fsquid:S1854/"JRemove this useless assignment to local variable "previousMonthSameDate2".(¢éöÜúÿÿÿÿ
-Wsquid:S1481/";Remove this unused "previousMonthSameDate2" local variable.(¢éöÜúÿÿÿÿ

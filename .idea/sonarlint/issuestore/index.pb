@@ -75,3 +75,5 @@ b
 2src/main/java/com/kavito/java8/stream/FlatMap.java,1/b/1b3f969f08a5f564a475fbfbcb0d5a100324b81f
 e
 5src/main/java/com/kavito/regular/RegisterRegular.java,7/8/7838ecc64a5c070b1df12d91b6176208a025e6e9
+b
+2src/main/java/com/kavito/java8/stream/Collect.java,9/7/976905a5475db63005e0f022af54997633436f68

@@ -1,8 +1,6 @@
 package com.kavito.time;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
@@ -42,6 +40,8 @@ public class LocalDateDemo {
 
         /**
          * 4、获取当前日期并减去一个月。可以是负数
+         *
+         * *** ChronoUnit：时间单位枚举类
          */
         LocalDate previousMonthSameDate = now.minusMonths(1);
         LocalDate previousMonthSameDate2 = LocalDate.now().minus(1, ChronoUnit.MONTHS);
@@ -87,7 +87,37 @@ public class LocalDateDemo {
          */
         // 当月的第3天日期：2019-12-03，当年第90天的日期2019-03-31，当年第6月的日期：2019-06-20
         System.out.println("当月的第3天日期："+now.withDayOfMonth(3)+"，当年第90天的日期"+now.withDayOfYear(90)+"，当年第6月的日期："+now.withMonth(6));
+
+
+        /**
+         * 11、计算两个日期间差（常用）
+         *
+         *  Period类：计算间隔年月日数
+         *  ChronoUnit类：可用于在单个时间单位内测量一段时间，例如天数或秒
+         *  Duration类:提供了使用基于时间的值（如秒，纳秒）测量时间量的方法。
+         */
+        LocalDate beginDate = LocalDate.of(2019,7,1);
+        LocalDate endDate = LocalDate.of(2020,4,2);
+
+        // 时间间隔：year=0,month=9,days=1
+        Period period= Period.between(beginDate,endDate);
+        System.out.printf("时间间隔 : %d 年 %d 月 %d 日", period.getYears(), period.getMonths(), period.getDays());
+        // 日相差天数：276
+        System.out.println("日期相差天数："+ChronoUnit.DAYS.between(beginDate, endDate));
+        // Duration类
+        //提供了使用基于时间的值（如秒，纳秒）测量时间量的方法。
+        Instant inst1 = Instant.now();
+        Instant inst2 = inst1.plus(Duration.ofSeconds(10));
+        System.out.println("Difference in milliseconds : " + Duration.between(inst1, inst2).toMillis());
+        System.out.println("Difference in seconds : " + Duration.between(inst1, inst2).getSeconds());
+
+
+
+
+
+
     }
+
 
 
 

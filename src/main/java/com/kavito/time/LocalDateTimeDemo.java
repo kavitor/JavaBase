@@ -123,6 +123,27 @@ public class LocalDateTimeDemo {
         // 格式化前:2019-12-20T15:00:01.527，格式化后：2019-12-20
         System.out.println("格式化前:"+now+"，格式化后："+formatLocalDateTime);
 
+
+
+        /**
+         * 7、获取时间戳
+         *
+         */
+        Instant instant = LocalDateTime.now().toInstant(OffsetDateTime.now(ZoneId.systemDefault()).getOffset());
+        long timeStamp1 = instant.toEpochMilli();
+        System.out.println("时间戳："+timeStamp1);
+
+        long timeStamp2 = LocalDateTime.now().toInstant(ZoneOffset.of("+8")).toEpochMilli();
+        System.out.println("时间戳："+timeStamp2);
+
+        Instant from = Instant.from(ZonedDateTime.now());
+        long timeStamp3 = from.toEpochMilli();
+        System.out.println("时间戳："+timeStamp3);
+
+        long timeStamp4 = Instant.now().toEpochMilli();
+        System.out.println("时间戳："+timeStamp4);
+
+
     }
 
 }
