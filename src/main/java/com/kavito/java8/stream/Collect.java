@@ -7,6 +7,8 @@ import lombok.ToString;
 import org.junit.Test;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentMap;
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -37,7 +39,6 @@ public class Collect {
 
 
 
-
     @Data
     @ToString
     @AllArgsConstructor
@@ -55,28 +56,52 @@ public class Collect {
                 new User(3L, "mengdy")
         );
 
-        // toMap 可用于将List转为Map，便于通过key快速查找到某个value
-        Map<Long, User> userIdAndModelMap = userList.stream().collect(Collectors.toMap(User::getId, Function.identity()));
+        /**
+         * toMap key可以指定为id,value既可以是对象本身也可以指定对象某个字段。
+         * 1、Function.identity()获取这个对象本身
+         * 2、Map<Long, String> userIdAndUsernameMap = userList.stream()
+         *         .collect(Collectors.toMap(User::getId, User::getUsername));
+         */
+        /**串行收集*/
+        Map<Long, User> userIdAndModelMap = userList.stream()
+                .collect(Collectors.toMap(User::getId, Function.identity()));
         User user = userIdAndModelMap.get(1L);
         // User(id=1, username=mengday)
         System.out.println(user);
 
-        Map<Long, String> userIdAndUsernameMap = userList.stream().collect(Collectors.toMap(User::getId, User::getUsername));
-        String username = userIdAndUsernameMap.get(1L);
-        // mengday
-        System.out.println(username);
+        /**并行收集*/
+        ConcurrentMap<Long, User> parallelMap = userList.stream()
+                .parallel()
+                .collect(Collectors.toConcurrentMap(User::getId, Function.identity()));
+        System.out.println(parallelMap.get(1L));
+
+        /**其他功能*/
+       // 假如list转map时，list中的对象某个字段有重复的，也就是作为map的key值有重复的,可以加比较器,还能自定义Map对象
+        LinkedHashMap<Long, User> linkedHashMap = userList.stream().collect(Collectors.toMap(
+                User::getId,
+                Function.identity(),
+                BinaryOperator.maxBy(Comparator.comparing(User::getUsername)),
+                LinkedHashMap::new)
+        );
     }
 
 
-
+    /**
+     * 聚合归约
+     */
     @Test
     public void testJoining(){
-        // a,b,c
+        // [a,b,c]
         List<String> list2 = Arrays.asList("a", "b", "c");
-        String result = list2.stream().collect(Collectors.joining(","));
-
+        String result = list2.stream().collect(Collectors.joining(",","[","]"));
         // Collectors.joining(",")的结果是：a,b,c  然后再将结果 x + "d"操作, 最终返回a,b,cd
-        String str= Stream.of("a", "b", "c").collect(Collectors.collectingAndThen(Collectors.joining(","), x -> x + "d"));
+        String str= Stream.of("a", "b", "c").
+                collect(Collectors.collectingAndThen(Collectors.joining(","), x -> x + "d"));
+
+        //result: [a,b,c]
+        System.out.println("result: "+result);
+        // str: a,b,cd
+        System.out.println("str: "+str);
     }
 
     @Test
@@ -98,10 +123,39 @@ public class Collect {
 
 
     @Test
-    public void test2(){
+    public void testMapping() {
         // 映射：先对集合中的元素进行映射，然后再对映射的结果使用Collectors操作
         // A,B,C
         Stream.of("a", "b", "c").collect(Collectors.mapping(x -> x.toUpperCase(), Collectors.joining(",")));
+    }
+
+
+    @Test
+    public void testCalculation() {
+        /**
+         * 如果仅仅是为了计算，建议用第一种Stream.count()，Stream.min(),Stream.Max()的API,资源消耗少
+         * 也可以用Collectors.counting(),collectors.minBy,collectors.maxBy()。
+         */
+        // count
+        Long count = Stream.of(14, 0, 5, 3, 7, 9, -22, 23, 64).count();
+        System.out.println("count: "+count);
+        // counting
+        Long counting = Stream.of(14, 0, 5, 3, 7, 9, -22, 23, 64).collect(Collectors.counting());
+        System.out.println("counting: "+counting);
+
+
+        /**其他高级场景*/
+        // 64
+        Stream.of(14, 0, 5, 3, 7, 9, -22, 23, 64)
+                .collect(Collectors.maxBy(Integer::compareTo))
+                .ifPresent(System.out::println);
+
+        /** summarizingInt求总：IntSummaryStatistics对象：包含了统计、最大值、最小值，评价值，求和*/
+        // IntSummaryStatistics{count=9, sum=103, min=-22, average=11.444444, max=64}
+        IntSummaryStatistics intSummaryStatistics = Stream.of(14, 0, 5, 3, 7, 9, -22, 23, 64)
+                .collect(Collectors.summarizingInt(Integer::valueOf));
+        System.out.println("和: "+intSummaryStatistics.getSum());
+
     }
 
 }
