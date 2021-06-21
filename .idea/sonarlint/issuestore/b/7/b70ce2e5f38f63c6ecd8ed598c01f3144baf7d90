@@ -1,0 +1,21 @@
+
+?squid:S1604#"(Make this anonymous inner class a lambda(è€Ä·
+N
+squid:S1066"9Replace this use of System.out or System.err by a logger.(õÜ­
+T
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¢–’Ôûÿÿÿÿ
+O
+squid:S106>"9Replace this use of System.out or System.err by a logger.(™ê‘Š
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ä„·ýÿÿÿÿ
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(™ê‘Š
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(™ê‘Š
+O
+squid:S106)"9Replace this use of System.out or System.err by a logger.(™ê‘Š
+O
+squid:S106C"9Replace this use of System.out or System.err by a logger.(™ê‘Š
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Ùëû¸
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¾Üš´

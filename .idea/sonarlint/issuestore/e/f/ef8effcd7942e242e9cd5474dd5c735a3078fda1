@@ -1,26 +1,34 @@
 
-Fsquid:S1481 "*Remove this unused "date2" local variable.(İãÕÔøÿÿÿÿ
-N
-squid:S106)"9Replace this use of System.out or System.err by a logger.(„µÒ,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ
+U
+squid:S106j"9Replace this use of System.out or System.err by a logger.(šØüb8é•¢Ø«.
+Fsquid:S1481"*Remove this unused "date2" local variable.(İãÕÔøÿÿÿÿ
+Usquid:S1854"9Remove this useless assignment to local variable "date2".(İãÕÔøÿÿÿÿ
 T
 squid:S1064"9Replace this use of System.out or System.err by a logger.(‹Ö§Ùúÿÿÿÿ
-gsquid:S11929"KDefine a constant instead of duplicating this literal "2019-12-20" 3 times.(¸î£µşÿÿÿÿ
-fsquid:S1854/"JRemove this useless assignment to local variable "previousMonthSameDate2".(¢éöÜúÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(²¨ç÷
+T
+squid:S106K"9Replace this use of System.out or System.err by a logger.(›¨ÍŒşÿÿÿÿ
+Wsquid:S1481/";Remove this unused "previousMonthSameDate2" local variable.(¢éöÜúÿÿÿÿ
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ìµ–”ùÿÿÿÿ
+V
+squid:S106p"9Replace this use of System.out or System.err by a logger.(ó¹µÛ8ä¸Ø«.
 T
 squid:S1061"9Replace this use of System.out or System.err by a logger.(‡í®®üÿÿÿÿ
 O
-squid:S106""9Replace this use of System.out or System.err by a logger.(²¨ç÷
-O
 squid:S106="9Replace this use of System.out or System.err by a logger.(ÀØÊÚ
-Usquid:S1854 "9Remove this useless assignment to local variable "date2".(İãÕÔøÿÿÿÿ
-Wsquid:S1481/";Remove this unused "previousMonthSameDate2" local variable.(¢éöÜúÿÿÿÿ
+[
+squid:S106h"9Replace this use of System.out or System.err by a logger.(áâñÆùÿÿÿÿ8Œ½€Ø«.
 O
 squid:S106C"9Replace this use of System.out or System.err by a logger.(ÏëÙ¤
 T
-squid:S106K"9Replace this use of System.out or System.err by a logger.(›¨ÍŒşÿÿÿÿ
-T
 squid:S106S"9Replace this use of System.out or System.err by a logger.(‚ÕÄúùÿÿÿÿ
-T
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(ìµ–”ùÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ
+[
+squid:S106o"9Replace this use of System.out or System.err by a logger.(¥úù¼øÿÿÿÿ8ä¸Ø«.
+gsquid:S11929"KDefine a constant instead of duplicating this literal "2019-12-20" 3 times.(¸î£µşÿÿÿÿ
+fsquid:S1854/"JRemove this useless assignment to local variable "previousMonthSameDate2".(¢éöÜúÿÿÿÿ
+N
+squid:S106'"9Replace this use of System.out or System.err by a logger.(„µÒ,

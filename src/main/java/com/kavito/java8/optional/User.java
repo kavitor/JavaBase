@@ -28,6 +28,7 @@ public class User {
     public static void main(String[] args) throws Exception {
         User user = new User("zhangSan",new Address("深圳"));
         //User user1 = new User();
+        //User user =null;
         String city = getCity(user);
         System.out.println(city);
 

@@ -1,8 +1,8 @@
 
 Rsquid:S1854"6Remove this useless assignment to local variable "s2".(Ý¿¬ÿÿÿÿÿ
-Csquid:S1481"'Remove this unused "s3" local variable.(Õ€™Êûÿÿÿÿ
-Csquid:S1481"'Remove this unused "s2" local variable.(Ý¿¬ÿÿÿÿÿ
 Csquid:S1612 ",Replace this lambda with a method reference.(§Ñœ¡
->squid:S1481"'Remove this unused "s1" local variable.(¡«ç–
-Msquid:S1854"6Remove this useless assignment to local variable "s1".(¡«ç–
+Csquid:S1481"'Remove this unused "s2" local variable.(Ý¿¬ÿÿÿÿÿ
 Rsquid:S1854"6Remove this useless assignment to local variable "s3".(Õ€™Êûÿÿÿÿ
+Msquid:S1854"6Remove this useless assignment to local variable "s1".(¡«ç–
+>squid:S1481"'Remove this unused "s1" local variable.(¡«ç–
+Csquid:S1481"'Remove this unused "s3" local variable.(Õ€™Êûÿÿÿÿ

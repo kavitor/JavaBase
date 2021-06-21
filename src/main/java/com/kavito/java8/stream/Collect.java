@@ -58,6 +58,7 @@ public class Collect {
 
         /**
          * toMap key可以指定为id,value既可以是对象本身也可以指定对象某个字段。
+         * https://www.cnblogs.com/oskyhg/p/9860843.html
          * 1、Function.identity()获取这个对象本身
          * 2、Map<Long, String> userIdAndUsernameMap = userList.stream()
          *         .collect(Collectors.toMap(User::getId, User::getUsername));

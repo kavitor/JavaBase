@@ -8,7 +8,9 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * @Description:
@@ -81,4 +83,70 @@ public class TimeTest {
 
         System.out.println("age  : " + Integer.parseInt(String.valueOf(age)));
     }
+
+    @Test
+    public void test6(){
+        Integer days = new Integer(2);
+        LocalDate today = LocalDate.now();
+        LocalDate localDate = today.plusDays(days);
+        System.out.println("day  : " + localDate);
+    }
+
+
+    @Test
+    public void test7(){
+        Map<String,String> map = new HashMap<>();
+        String s = map.get("1");
+        System.out.println(s);
+    }
+
+
+
+    @Test
+    public void test8(){
+
+        LocalDate today = LocalDate.now();
+        LocalDate firthDay = today.with(TemporalAdjusters.firstDayOfNextMonth());
+        LocalDate firthDayNextMonth = today.with(TemporalAdjusters.firstDayOfNextMonth());
+
+        System.out.println("day  : " + firthDay+"--"+firthDayNextMonth);
+    }
+
+
+
+
+    @Test
+    public void testList(){
+        List<String> all = new ArrayList<String>(){{
+            add("1");
+            add("2");
+            add("3");
+            add("4");
+            add("5");
+            add("6");
+            add("7");
+            add("8");
+        }};
+        List<String> list1 = new ArrayList<String>(){{
+            add("4");
+            add("5");
+            add("6");
+        }};
+        List<String> list2 = new ArrayList<String>(){{
+            add("1");
+            add("2");
+            add("3");
+        }};
+        List<String> list3 = new ArrayList<>();
+
+        List<String> reduce1 = all.stream().filter(x -> !list1.contains(x)).collect(Collectors.toList());
+        List<String> reduce2 = reduce1.stream().filter(x -> !list2.contains(x)).collect(Collectors.toList());
+        List<String> list = reduce2.stream().filter(x -> !list3.contains(x)).collect(Collectors.toList());
+        System.out.println(list);
+
+
+
+
+    }
+    
 }

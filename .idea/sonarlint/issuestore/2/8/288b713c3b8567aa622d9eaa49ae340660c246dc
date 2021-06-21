@@ -1,17 +1,17 @@
 
-Rsquid:S1854"6Remove this useless assignment to local variable "of".(É¿Àşÿÿÿÿ
 T
-squid:S106$"9Replace this use of System.out or System.err by a logger.(£¾”‰øÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ
 Hsquid:S1481!"1Remove this unused "twelveThirty" local variable.(‹ËÌ›
-O
-squid:S1066"9Replace this use of System.out or System.err by a logger.(ÄŸ„»
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ë£Ó›
-T
-squid:S1065"9Replace this use of System.out or System.err by a logger.(ü…„ıÿÿÿÿ
-Csquid:S1481"'Remove this unused "of" local variable.(É¿Àşÿÿÿÿ
 T
 squid:S106."9Replace this use of System.out or System.err by a logger.(ÊùÌÌùÿÿÿÿ
 Wsquid:S1854!"@Remove this useless assignment to local variable "twelveThirty".(‹ËÌ›
+Rsquid:S1854"6Remove this useless assignment to local variable "of".(É¿Àşÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ
+squid:S106$"9Replace this use of System.out or System.err by a logger.(£¾”‰øÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ü…„ıÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë£Ó›
+Csquid:S1481"'Remove this unused "of" local variable.(É¿Àşÿÿÿÿ
+O
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ÄŸ„»

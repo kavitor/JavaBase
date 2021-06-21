@@ -136,5 +136,12 @@ public class Test {
 
     }
 
+    @org.junit.Test
+    public void test3(){
+        String test = "-1s";
+        System.out.println(Short.valueOf(test));
+
+    }
+
 
 }

@@ -1,6 +1,7 @@
 package com.kavito.collection;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @Description:
@@ -10,7 +11,7 @@ import java.util.*;
 public class ListTest {
 
     public static void main(String[] args) {
-        List<String> listA = new ArrayList<String>();
+       /* List<String> listA = new ArrayList<String>();
         List<String> listB = new ArrayList<String>();
         Set<String>  setC = new HashSet<>();
 
@@ -29,7 +30,18 @@ public class ListTest {
         boolean b = newList.retainAll(setC);
         if(newList.size()>0){
             System.out.println(b+"mei有交集"+newList.toString());
-        }
+        }*/
 
+      List<String> list= new ArrayList<>(5);
+
+        test(list);
+        System.out.println(list);
+
+    }
+
+
+    private static void test(List<String> list){
+        list.add("1");
+        list.add("2");
     }
 }

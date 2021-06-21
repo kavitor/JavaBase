@@ -1,0 +1,13 @@
+
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(Û®ˆ÷8¤”Ô».
+Zsquid:S1854"7Remove this useless assignment to local variable "num".(¹÷à®ûÿÿÿÿ8û„¿›».
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(Ò‰»8š’Á›».
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÙÓÌª8„†»›».
+Ksquid:S1481"(Remove this unused "num" local variable.(¹÷à®ûÿÿÿÿ8û„¿›».
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8Ÿš›».
+V
+squid:S1065"9Replace this use of System.out or System.err by a logger.(Ò‰»8´øÉ».

@@ -1,57 +1,57 @@
 
-csquid:S11928"GDefine a constant instead of duplicating this literal "world!" 3 times.(È¥üÿÿÿÿ
-?squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148i"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148k"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148¶"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148Ó"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-osquid:S16027"SRemove useless curly braces around statement and then remove useless return keyword(¸•ô¶ıÿÿÿÿ
-T
-squid:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
-osquid:S1602I"SRemove useless curly braces around statement and then remove useless return keyword(®İ¤ÿÿÿÿÿ
-Hsquid:S1602I",Remove useless curly braces around statement(®İ¤ÿÿÿÿÿ
-O
-squid:S106J"9Replace this use of System.out or System.err by a logger.(µ®Ç 
-]squid:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-`squid:S2147["DCombine this catch with the one at line 89, which has the same body.(åşŒóùÿÿÿÿ
-T
-squid:S106X"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
-]squid:S2142h"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-asquid:S2147j"ECombine this catch with the one at line 104, which has the same body.(åşŒóùÿÿÿÿ
-T
-squid:S106g"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
-]squid:S2142}"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 U
 squid:S106€"9Replace this use of System.out or System.err by a logger.(È™¾Ôüÿÿÿÿ
-^squid:S2142…"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+?squid:S1148k"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
 U
 squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(®ëš¶øÿÿÿÿ
-^squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+bsquid:S2147µ"ECombine this catch with the one at line 179, which has the same body.(åşŒóùÿÿÿÿ
+@squid:S1148´"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ó"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:S2147Ô"ECombine this catch with the one at line 210, which has the same body.(åşŒóùÿÿÿÿ
+@squid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+O
+squid:S106J"9Replace this use of System.out or System.err by a logger.(µ®Ç 
+@squid:S1148¶"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+osquid:S1602I"SRemove useless curly braces around statement and then remove useless return keyword(®İ¤ÿÿÿÿÿ
+T
+squid:S106X"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
 U
 squid:S106"9Replace this use of System.out or System.err by a logger.(ş»ó‚úÿÿÿÿ
-U
-squid:S106“"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
-^squid:S2142Ÿ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-bsquid:S2147¡"ECombine this catch with the one at line 159, which has the same body.(åşŒóùÿÿÿÿ
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
-P
-squid:S106¯"9Replace this use of System.out or System.err by a logger.(·Ó­Ü
-^squid:S2142³"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-bsquid:S2147µ"ECombine this catch with the one at line 179, which has the same body.(åşŒóùÿÿÿÿ
-P
-squid:S106Ä"9Replace this use of System.out or System.err by a logger.(ÃØÄ–
 ^squid:S2142Ò"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-bsquid:S2147Ô"ECombine this catch with the one at line 210, which has the same body.(åşŒóùÿÿÿÿ
+@squid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+]squid:S2142h"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+?squid:S1148\"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+^squid:S2142³"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 U
 squid:S106Ñ"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
-Nsquid:S1854Û"6Remove this useless assignment to local variable "cf".(Øú»
+T
+squid:S106g"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
+?squid:S1148i"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+^squid:S2142…"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+U
+squid:S106“"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+P
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(ÃØÄ–
+Hsquid:S1602I",Remove useless curly braces around statement(®İ¤ÿÿÿÿÿ
+^squid:S2142Ÿ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+P
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(·Ó­Ü
+asquid:S2147j"ECombine this catch with the one at line 104, which has the same body.(åşŒóùÿÿÿÿ
+^squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
 ?squid:S1481Û"'Remove this unused "cf" local variable.(Øú»
+`squid:S2147["DCombine this catch with the one at line 89, which has the same body.(åşŒóùÿÿÿÿ
+]squid:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+csquid:S11928"GDefine a constant instead of duplicating this literal "world!" 3 times.(È¥üÿÿÿÿ
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘Şî½üÿÿÿÿ
+]squid:S2142}"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+osquid:S16027"SRemove useless curly braces around statement and then remove useless return keyword(¸•ô¶ıÿÿÿÿ
+Nsquid:S1854Û"6Remove this useless assignment to local variable "cf".(Øú»
+?squid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:S2147¡"ECombine this catch with the one at line 159, which has the same body.(åşŒóùÿÿÿÿ
+@squid:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

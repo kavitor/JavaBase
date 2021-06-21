@@ -1,21 +1,21 @@
 
-?squid:S1148k"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-}squid:S1845?"aRename method "Test" to prevent any misunderstanding/clash with method "test" defined on line 52.(µÇ«–ÿÿÿÿÿ
-Wsquid:S18545";Remove this useless assignment to local variable "futureA".(í–ğ®ıÿÿÿÿ
 O
 squid:S1068"9Replace this use of System.out or System.err by a logger.(ÆäìÑ
-T
-squid:S1069"9Replace this use of System.out or System.err by a logger.(¶Ó‰¢ùÿÿÿÿ
-ksquid:S00100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ«–ÿÿÿÿÿ
 Tsquid:S1854Z"=Remove this useless assignment to local variable "allFuture".(å½Ç•
 T
 squid:S106\"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+bsquid:S2142w"FEither re-interrupt this method or rethrow the "InterruptedException".(«§ğÿÿÿÿÿ
+Wsquid:S18545";Remove this useless assignment to local variable "futureA".(í–ğ®ıÿÿÿÿ
+?squid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Hsquid:S14815",Remove this unused "futureA" local variable.(í–ğ®ıÿÿÿÿ
+}squid:S1845?"aRename method "Test" to prevent any misunderstanding/clash with method "test" defined on line 52.(µÇ«–ÿÿÿÿÿ
+T
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¶Ó‰¢ùÿÿÿÿ
+ksquid:S00100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ«–ÿÿÿÿÿ
+Esquid:S1481Z".Remove this unused "allFuture" local variable.(å½Ç•
+?squid:S1148k"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
 T
 squid:S106]"9Replace this use of System.out or System.err by a logger.(ƒ×ÖÒúÿÿÿÿ
 T
 squid:S106^"9Replace this use of System.out or System.err by a logger.(åºê‘şÿÿÿÿ
 ]squid:S2142j"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
-bsquid:S2142w"FEither re-interrupt this method or rethrow the "InterruptedException".(«§ğÿÿÿÿÿ
-Hsquid:S14815",Remove this unused "futureA" local variable.(í–ğ®ıÿÿÿÿ
-Esquid:S1481Z".Remove this unused "allFuture" local variable.(å½Ç•

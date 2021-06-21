@@ -1,9 +1,9 @@
 
-squid:S00116"gRename this field "DISTRIBUTION_TIME_SPLIT_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÉÔ
 O
 squid:S1063"9Replace this use of System.out or System.err by a logger.( êç÷
-[
-squid:S1060"9Replace this use of System.out or System.err by a logger.(•ÊÙûûÿÿÿÿ8Úõ¶”û-
+squid:S00116"gRename this field "DISTRIBUTION_TIME_SPLIT_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÉÔ
 [
 squid:S106-"9Replace this use of System.out or System.err by a logger.(Ñ±Ëàøÿÿÿÿ8Øá÷“û-
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(•ÊÙûûÿÿÿÿ8Úõ¶”û-
 Osquid:S1602,",Remove useless curly braces around statement(•óÎşıÿÿÿÿ8Øá÷“û-

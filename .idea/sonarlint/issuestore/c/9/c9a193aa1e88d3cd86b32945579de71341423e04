@@ -1,29 +1,41 @@
 
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(İ†µùøÿÿÿÿ
-bsquid:S2184."FCast one of the operands of this multiplication operation to a "long".(¼êæòøÿÿÿÿ
-O
-squid:S1069"9Replace this use of System.out or System.err by a logger.(ÊÎÃÉ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ­øäûÿÿÿÿ
-O
-squid:S1067"9Replace this use of System.out or System.err by a logger.(²¨ç÷
-T
-squid:S106;"9Replace this use of System.out or System.err by a logger.(ìƒÔĞúÿÿÿÿ
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ìƒÔĞúÿÿÿÿ8›ô´í».
+wsquid:S1171s"YMove the contents of this initializer to a standard constructor or to field initializers.(®­”8¦ œº½.
+isquid:S2184/"FCast one of the operands of this multiplication operation to a "long".(¼êæòøÿÿÿÿ8›ô´í».
 V
-squid:S106H"9Replace this use of System.out or System.err by a logger.(ÊÙéË8ÈÉİ†‘.
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ÊÎÃÉ8›ô´í».
+Osquid:S3599i",Use another way to initialize this instance.(×íÁúÿÿÿÿ8×è˜º½.
 V
-squid:S106_"9Replace this use of System.out or System.err by a logger.(Ÿšóå8ëôáÆ©.
-O
-squid:S1060"9Replace this use of System.out or System.err by a logger.(€˜ğ
-vsquid:S1488"_Immediately return this expression instead of assigning it to the temporary variable "seconds".(œëÎÿ
-T
-squid:S106("9Replace this use of System.out or System.err by a logger.(¬¸¿ÿÿÿÿÿ
-O
-squid:S106="9Replace this use of System.out or System.err by a logger.(şØ«İ
+squid:S1068"9Replace this use of System.out or System.err by a logger.(²¨ç÷8›ô´í».
 [
-squid:S106R"9Replace this use of System.out or System.err by a logger.(å ï‘úÿÿÿÿ8Ü™¦İ¤.
+squid:S106"9Replace this use of System.out or System.err by a logger.(İ†µùøÿÿÿÿ8›ô´í».
 [
-squid:S106I"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ8µ…à†‘.
+squid:S106)"9Replace this use of System.out or System.err by a logger.(¬¸¿ÿÿÿÿÿ8›ô´í».
+V
+squid:S1061"9Replace this use of System.out or System.err by a logger.(€˜ğ8›ô´í».
+}squid:S1488 "_Immediately return this expression instead of assigning it to the temporary variable "seconds".(œëÎÿ8›ô´í».
+Dsquid:S2129X"!Remove this "Integer" constructor(§ÂÓıÿÿÿÿ8›ô´í».
+|squid:S1171i"YMove the contents of this initializer to a standard constructor or to field initializers.(×íÁúÿÿÿÿ8×è˜º½.
+|squid:S1171x"YMove the contents of this initializer to a standard constructor or to field initializers.(ùÄÖüÿÿÿÿ8ìâº½.
 [
-squid:S106G"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8È½«‚‘.
+squid:S106H"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8›ô´í».
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ­øäûÿÿÿÿ8›ô´í».
+[
+squid:S106["9Replace this use of System.out or System.err by a logger.(›Ïµòùÿÿÿÿ8›ô´í».
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ÊÙéË8›ô´í».
+\
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8Èò©º½.
+Osquid:S3599x",Use another way to initialize this instance.(ùÄÖüÿÿÿÿ8ìâº½.
+[
+squid:S106S"9Replace this use of System.out or System.err by a logger.(å ï‘úÿÿÿÿ8›ô´í».
+V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(şØ«İ8›ô´í».
+csquid:CallToDeprecatedMethodX"/Remove this use of "Integer"; it is deprecated.(§ÂÓıÿÿÿÿ8›ô´í».
+[
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8 ‡¸í».
+Jsquid:S3599s",Use another way to initialize this instance.(®­”8¦ œº½.
+[
+squid:S106J"9Replace this use of System.out or System.err by a logger.(úœüıÿÿÿÿ8›ô´í».

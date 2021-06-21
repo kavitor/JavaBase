@@ -79,6 +79,7 @@ public class LocalDateDemo {
          */
         LocalDateTime beginningOfDay = LocalDate.parse("20190211", DateTimeFormatter.ofPattern("yyyyMMdd")).atStartOfDay();
         LocalDate firstDayMonth = now.with(TemporalAdjusters.firstDayOfMonth());
+
         // 一天的开始时间：2019-02-11T00:00，月初日期：2019-11-01
         System.out.println("一天的开始时间："+beginningOfDay+"，月初日期："+firstDayMonth);
 

@@ -1,0 +1,34 @@
+
+Asquid:S14442"*Make this "public static list" field final(¾üîè
+~"squid:ClassVariableVisibilityCheck2"PMake list a static final constant or non-public and provide accessors if needed.(¾üîè
+Hsquid:S1612G",Replace this lambda with a method reference.(Ú¦ÉÈÿÿÿÿÿ
+Hsquid:S1612L",Replace this lambda with a method reference.(ëÌÃÔÿÿÿÿÿ
+4squid:S23862"Make this member "protected".(¾üîè
+T
+squid:S106!"9Replace this use of System.out or System.err by a logger.(õò‹ğùÿÿÿÿ
+Qsquid:S1854("5Remove this useless assignment to local variable "s".(âêÛ£øÿÿÿÿ
+Hsquid:S1602?",Remove useless curly braces around statement(ÍÄ¨“ıÿÿÿÿ
+T
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¡á°Şÿÿÿÿÿ
+Ksquid:S3631G"/Use "Arrays.stream" instead of "Arrays.asList".(Ú¦ÉÈÿÿÿÿÿ
+Hsquid:S1602G",Remove useless curly braces around statement(Ú¦ÉÈÿÿÿÿÿ
+N
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+T
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ñıìíùÿÿÿÿ
+Hsquid:S1602L",Remove useless curly braces around statement(ëÌÃÔÿÿÿÿÿ
+T
+squid:S106M"9Replace this use of System.out or System.err by a logger.(ˆ™ê³úÿÿÿÿ
+T
+squid:S106O"9Replace this use of System.out or System.err by a logger.(¿ª„ùùÿÿÿÿ
+8squid:S3864V"!Remove this use of "Stream.peek".(½äŸ
+osquid:S1602T"SRemove useless curly braces around statement and then remove useless return keyword(„æ–ûÿÿÿÿ
+Csquid:S1602V",Remove useless curly braces around statement(½äŸ
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(šÍ‚„ıÿÿÿÿ
+T
+squid:S106\"9Replace this use of System.out or System.err by a logger.(—ı©Øşÿÿÿÿ
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ğÌøÈÿÿÿÿÿ
+Bsquid:S1481("&Remove this unused "s" local variable.(âêÛ£øÿÿÿÿ
+gsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(Ó¢„Ìüÿÿÿÿ
